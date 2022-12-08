@@ -162,11 +162,3 @@ from ransomware to trojans to spyware.</p>
 
 </body>""", unsafe_allow_html=True)
 
-st.markdown("""---""", unsafe_allow_html=True)
-
-st.subheader("Quiz Session")
-
-st.markdown("""<p><b>What is your name?</b></p>""", unsafe_allow_html=True)
-# Add a true or false question
-stb.true_or_false("2. The reason why we need to put 'r' before the file path is because the file path contains "
-"backslashes which are treated as escape characters. An alternative way is to use forwardslashes.", answer=True)
